@@ -1,68 +1,68 @@
-# [Start Bootstrap - Clean Blog](https://startbootstrap.com/template-overviews/clean-blog/)
-
-[Clean Blog](https://startbootstrap.com/template-overviews/clean-blog/) is a stylish, responsive blog theme for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features a blog homepage, about page, contact page, and an example post page along with a working PHP contact form.
-
-## Preview
-
-[![Clean Blog Preview](https://startbootstrap.com/assets/img/screenshots/themes/clean-blog.png)](https://blackrockdigital.github.io/startbootstrap-clean-blog/)
-
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-clean-blog/)**
-
-## Status
-
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-clean-blog/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-clean-blog.svg)](https://www.npmjs.com/package/startbootstrap-clean-blog)
-[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-clean-blog.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-clean-blog)
-[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-clean-blog/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-clean-blog)
-[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-clean-blog/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-clean-blog?type=dev)
-
-## Download and Installation
-
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/clean-blog/)
-* Install via npm: `npm i startbootstrap-clean-blog`
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-clean-blog.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-clean-blog)
-
-## Usage
-
-### Basic Usage
-
-After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
-
-### Advanced Usage
-
-After installation, run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
-
-#### Gulp Tasks
-
-- `gulp` the default task that builds everything
-- `gulp watch` browserSync opens the project in your default browser and live reloads when changes are made
-- `gulp css` compiles SCSS files into CSS and minifies the compiled CSS
-- `gulp js` minifies the themes JS file
-- `gulp vendor` copies dependencies from node_modules to the vendor directory
-
-You must have npm installed globally in order to use this build environment.
-
-## Bugs and Issues
-
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-clean-blog/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](https://startbootstrap.com/themes/clean-blog/).
-
-## About
-
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
-
-* https://startbootstrap.com
-* https://twitter.com/SBootstrap
-
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](https://blackrockdigital.io/).
-
-* http://davidmiller.io
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](https://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2019 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-clean-blog/blob/gh-pages/LICENSE) license.
+#Programmation Web
+###–M1–
+##PROJET
+Le but de ce projet est de réaliser, en binôme ou en trinôme, le site web du mastère
+apprentissage.
+Ce site web sera l’occasion de présenter cette filière aux internautes et aux étudiants
+souhaitant faire un mastère.
+Pour ce faire, vous devez utiliser le html et css pour l’ergonomie de vos pages, le javascript et
+le php pour le traitement et contrôle des données et le mysql pour la création et la
+manipulation des bases de données.
+Vous êtes demandé de créer plusieurs pages web :
+1. Un onglet Accueil qui mène à une page où l’internaute trouve une présentation du
+mastère, les caractéristiques, les embauches et les avantages tout au long de ce
+parcours. Ainsi qu’un lien vers le site de Dauphine.
+2. Un onglet Matière qui mène à une page où l’internaute a la possibilité de consulter la
+table des différentes matières enseignées au cours de ce parcours. Pour chaque matière
+vous devez mettre une petite description de son contenu et le nombre d’heure.
+3. Un onglet Etudiants qui mène à une page où l’internaute peut retrouver la liste des
+étudiants inscrits ainsi que la spécialité de leur stage. La liste des étudiants est
+stockée dans une base de données MasterApp, sous la table Etudiant, la spécialité
+est stockée dans une table Stage.
+Si l’internaute souhaite avoir plus d’information sur un étudiant, en cliquant sur le
+nom de cet étudiant, il sera envoyé à une nouvelle page, celle de l’étudiant.
+Donc chaque étudiant doit avoir une page web personnalisée.
+Vous n’êtes pas demandé de faire des pages web pour tous les étudiants mais
+chacun doit faire sa propre page web. On doit retrouver sur cette page, une
+photo, les informations personnelles et professionnelles ainsi qu’un lien vers la
+société où il fait son stage d’apprentissage. Un cv en format PDF doit être
+ajouté et téléchargeable par l’internaute.
+4. Un onglet Candidater qui mène à une page où l’internaute doit remplir un formulaire
+afin de candidater au mastère.
+Le formulaire doit réunir toutes les informations du candidat ; Nom, prénom, adresse,
+date de naissance, parcours (en sélectionnant dans une liste déroulante son parcours),note en mathématique, note en informatique, note en anglais, la moyenne générale et
+une lettre de motivation. La lettre de motivation peut être écrite directement dans une
+zone de texte ou peut être télécharger à partir de son poste de travail.
+Pour valider les informations :
+• L’âge de l’étudiant doit être entre 20 et 35.
+• Le nom et prénom doivent être composés que par des lettres et de
+longueur entre 3 et 20.
+• La note de mathématique doit être supérieure à 10
+• La note d’informatique doit être supérieure à 15.
+• La note en anglais doit être supérieure à 12.
+• La moyenne générale doit être supérieure à 14.
+• Tous les champs doivent être saisis.
+Une fois tous les champs saisis correctement, une nouvelle page s’ouvre avec toutes
+les informations saisies, suivies de deux boutons Retour ou Sauvegarde.
+Le bouton Retour permet de retourner au formulaire.
+Le bouton Sauvegarde permet de vérifier l’existence de ce candidat.
+§ Si le candidat n’existe pas dans la base, il doit être ajouter avec un statut
+Candidat et le message ‘Candidature en cours de validation’ doit être affiché.
+§ Si le candidat est déjà dans la base :
+• Si son statut est Inscrit un message d’erreur doit être affiché.
+• Si son statut est Candidat.
+Un tableau s’affiche avec les anciennes informations existantes
+dans la base de données à gauche et les nouvelles informations
+saisies à droite.
+Trois boutons permettant soit d’annuler, soit de mettre à jour les
+informations, soit de supprimer la candidature. Un message
+confirmera le choix de l’internaute.
+La base de données MasterApp est composée de deux tables Etudiant et Stage.
+La table Etudiant contient les informations des étudiants : ID, Nom, prénom, adresse,
+date de naissance, parcours, les notes de mathématiques, informatique et anglais et la
+moyenne.
+La table Stage contient plusieurs spécialités : IDSt, domaine.
+Un étudiant doit avoir une seule spécialité mais une spécialité peut être affectée à
+plusieurs étudiants.
+PS : Vous êtes libres d’enrichir votre site web et de choisir le thème et les couleurs.
+Bonne chance

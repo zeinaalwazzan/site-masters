@@ -8,11 +8,11 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Clean Blog - Start Bootstrap Theme</title>
+  <title>matières</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+  
   <!-- Custom fonts for this template -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -21,6 +21,15 @@
   <!-- Custom styles for this template -->
   <link href="css/clean-blog.min.css" rel="stylesheet">
 
+  <style style="text/css">
+  	
+	/* Define the hover highlight color for the table row */
+    #mat:hover {
+          background-color: #d5d9e0;
+    }
+</style>
+
+
 </head>
 
 <body>
@@ -28,7 +37,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand" href="index.html">Start Bootstrap</a>
+      <a class="navbar-brand" href="https://dauphine.psl.eu/formations/masters/informatique/m1-methodes-informatiques-appliquees-a-la-gestion-des-entreprises/formation">voir le site officiel</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -36,16 +45,16 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="index.html">Acceuil</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="about.html">Matières</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="post.html">Sample Post</a>
+            <a class="nav-link" href="post.html">Etudiants</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="contact.html">Candidature</a>
           </li>
         </ul>
       </div>
@@ -53,14 +62,14 @@
   </nav>
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('img/about-bg.jpg')">
+  <header class="masthead" style="background-image: url('img/image_back_matieres.jpg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="page-heading">
-            <h1>About Me</h1>
-            <span class="subheading">This is what I do.</span>
+            <!--h1>Méthodes Informatiques Appliquées pour la Gestion des Entreprises - 1ère année de Master</h1-->
+            <span class="subheading">Méthodes Informatiques Appliquées pour la Gestion des Entreprises - 1ère année de Master</span>
           </div>
         </div>
       </div>
@@ -69,14 +78,388 @@
 
   <!-- Main Content -->
   <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio, adipisci quas excepturi maxime quae totam ducimus consectetur?</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius praesentium recusandae illo eaque architecto error, repellendus iusto reprehenderit, doloribus, minus sunt. Numquam at quae voluptatum in officia voluptas voluptatibus, minus!</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur magnam, excepturi aliquid ex itaque esse est vero natus quae optio aperiam soluta voluptatibus corporis atque iste neque sit tempora!</p>
-      </div>
-    </div>
-  </div>
+    
+  	<h1>Programme</h1>
+  	<br>
+		
+		<table class="table table-striped">
+
+			<thead>
+				<tr>
+					<th>Enseignement</th>
+					<th>Volume horaire</th>
+				</tr>
+			</thead>
+
+			<tbody>
+				<!--------Introduction au Machine Learning---------------->
+				<tr  class="accordion-toggle" data-toggle="collapse"
+					data-target="#collapse1" id="mat">
+					<td>Introduction au Machine Learning</td>
+					<td>30 h</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td colspan="3">
+						<div id="collapse1" class="collapse in">
+							<p style="color:#5a7e9e;"><strong> Description du contenu de l'enseignement :</strong></p>
+							Ce cours constitue une introduction à l’apprentissage artificiel. Nous ferons des rappels de statistiques élémentaires et y aborderons les algorithmes fondamentaux d’apprentissage supervisé et non supervisé.<br>
+							<strong>1) apprentissage supervisé:</strong><br>
+							K-plus proches voisins,
+							Analyse discriminante linéaire et quadratique
+							méthode bayésienne naïve,
+							régression logistique<br>
+							<strong>2) apprentissage non supervisé:</strong><br>
+							classification hiérarchique,
+							nuées dynamiques,
+							mixtures de gaussiennes<br>
+							<p style="color: #5a7e9e;"><strong> Ects: 4</strong></p> 
+						</div>
+					</td>
+				</tr>
+
+				<!--------Intelligence Artificielle---------------->
+				<tr  class="accordion-toggle" data-toggle="collapse"
+					data-target="#collapse2" id="mat">
+					<td>Intelligence Artificielle</td>
+					<td>30 h</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td colspan="3">
+						<div id="collapse2" class="collapse in">
+							<p style="color:#5a7e9e;"><strong> Description du contenu de l'enseignement :</strong></p>
+							Introduction aux outils et aux méthodes de résolution de l’intelligence artificielle.
+							<br>
+							1) Apprentissage d'un langage fonctionnel LISP ou Scheme.<br>
+							2) Méthodes de résolution de problèmes : algorithmes de recherche dans un graphe d’états.<br>
+							3) Jeux à deux joueurs : mini-max et alpha-béta.<br>
+							4) Systèmes Experts. Utilisation d’un générateur de systèmes experts.<br>
+
+							<p style="color: #5a7e9e;"><strong> Ects: 3</strong></p> 
+						</div>
+					</td>
+				</tr>
+
+				<!--------Marketing---------------->
+				<tr  class="accordion-toggle" data-toggle="collapse"
+					data-target="#collapse3" id="mat">
+					<td>Marketing</td>
+					<td>30 h</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td colspan="3">
+						<div id="collapse3" class="collapse in">
+							<p style="color:#5a7e9e;"><strong> Description du contenu de l'enseignement :</strong></p>
+							Familiariser les étudiants avec les concepts de marketing et leur permettre d'avoir une vision critique sur le fonctionnement des marchés, des entreprises et de leurs
+							actions.<br>
+
+							Présentation du marketing<br>
+							Présentation de la démarche marketing<br>
+							La stratégie marketing, de segmentation, de positionnement<br>
+							Les études et recherches en marketing, qualitatives, quantitatives
+							Le comportement du consommateur<br>
+							Les politiques marketing, produit, de prix, de communication, de distribution
+							Le marketing international<br>
+							Études de cas<br>
+							<p style="color: #5a7e9e;"><strong> Ects: 3</strong></p> 
+						</div>
+					</td>
+				</tr>
+
+				<!--------Programmation Objet avancée---------------->
+				<tr  class="accordion-toggle" data-toggle="collapse"
+					data-target="#collapse4" id="mat">
+					<td>Programmation Objet avancée</td>
+					<td>36 h</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td colspan="3">
+						<div id="collapse4" class="collapse in">
+							<p style="color:#5a7e9e;"><strong> Description du contenu de l'enseignement :</strong></p>
+							Introduction à la programmation object avancée.<br>
+							Introduction. Rappels des concepts : classes, héritage, interface, énumérations, exceptions.<br>
+							Définition et utilisations des classes internes et anonymes
+							Application au traitement des collections.<br>
+							Types paramétrés et wildcards.<br>
+							Traitement des processus (thread).<br>
+							Introduction à la programmation de tâches s’exécutant en parallèle.<br>
+							Gestion de ressources partagées entre processus<br>
+							<p style="color: #5a7e9e;"><strong> Ects: 4</strong></p> 
+						</div>
+					</td>
+				</tr>
+
+				<!--------Système de Gestion de base de données---------------->
+				<tr  class="accordion-toggle" data-toggle="collapse"
+					data-target="#collapse5" id="mat">
+					<td>Système de Gestion de base de données</td>
+					<td>39 h</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td colspan="3">
+						<div id="collapse5" class="collapse in">
+							<p style="color:#5a7e9e;"><strong> Description du contenu de l'enseignement :</strong></p>
+							L’objectif de ce cours est de couvrir les techniques internes des systèmes de gestion de base de données (SGBD) qui sont responsables de l'optimisation de l'evaluation de requêtes SQL.<br>
+							Une partie importante de ces données sont structurées et la manière dont nous y accédons, les gérons et les traitons a un impact considérable sur les performances et la fiabilité des applications manipulant les bases de données. La connaissance du modèle d'entités-associations, du modele relationnelle, de l'algèbre relationnelle et du langage de requête SQL n'est en aucun cas suffisante pour garantir des performances raisonnables et la fiabilité de telles applications.<br>
+							L’objectif de ce cours est donc de couvrir les techniques internes des systèmes de gestion de base de données (SGBD) qui sont responsables de l'optimisation de l'evaluation de requêtes SQL. Le cours présente premièrement l’architecture typique d'un SGBD relationnel, puis examine en détail les algorithmes et les structures de données utilisés pour implémenter les modules de cette architecture, y compris la gestion de la mémoire permanente, la gestion de la mémoire volatile, les structures de stockage, les méthodes d’accès, et l'optimisation de requête basée sur un modele de coût d'execution.<br>
+							Le cours comprend un certain nombre d'exercices (TD) et d'exercices pratiques (TP) dans lesquels les étudiants auront l'occasion d'explorer et de mettre en œuvre les fonctionnalités de certains modules du SGBD.<br>
+							<p style="color: #5a7e9e;"><strong> Ects: 4</strong></p> 
+						</div>
+					</td>
+				</tr>
+
+				<!--------Systèmes d’information avancés 1 et 2---------------->
+				<tr  class="accordion-toggle" data-toggle="collapse"
+					data-target="#collapse6" id="mat">
+					<td>Systèmes d’information avancés 1 et 2</td>
+					<td>69 h</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td colspan="3">
+						<div id="collapse6" class="collapse in">
+							<p style="color:#5a7e9e;"><strong> Description du contenu de l'enseignement :</strong></p>
+							Introduction aux systèmes d'information avancés.<br>
+								- Gestion de projet (3 séances de 3 heures)<br>
+								- Gestion des exigences (une séance )<br>
+								- Design Patterns (6 Séances).<br>
+							Apporter des compléments en architecture et en urbanisation des systèmes d’information et mettre en application les concepts introduits au premier semestre en conduite de projet sous forme d’un projet mené par équipe de 3 à 4 étudiants. Architecture orienté service (SOA)<br>
+							Urbanisme et processus métier : introduction aux processus métiers, les constats, les limites du fonctionnement en silo, quelques règles de description des processus et des activités, règles de découpage et niveau de maille, l’apport d’une démarche d’urbanisation au niveau métier.<br>
+							Les référentiels dans l’urbanisation des SI<br>
+							Organisation de la conduite d'un projet informatique (PAQ, Estimation des charges, Planification...)
+							Application sous forme d’un projet qui s’effectue dans les conditions semblables à un projet informatique avec l'utilisation d'un Atelier Génie Logiciel et donnant lieu à la remise de dossiers d'analyse et de dossiers techniques ; réunions d'avancement de projet, séances de validation des choix fonctionnels et des orientations techniques, recette de l'application.<br>
+
+							<p style="color: #5a7e9e;"><strong> Ects: 6</strong></p> 
+						</div>
+					</td>
+				</tr>
+
+				<!--------Notion de droit général---------------->
+				<tr  class="accordion-toggle" data-toggle="collapse"
+					data-target="#collapse7" id="mat">
+					<td>Notion de droit général</td>
+					<td>30 h</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td colspan="3">
+						<div id="collapse7" class="collapse in">
+							<p style="color:#5a7e9e;"><strong> Description du contenu de l'enseignement :</strong></p>
+							Permettre aux étudiants de découvrir les fondements du droit français et de se familiariser avec les principaux concepts ainsi qu’avec les grandes classifications du droit positif afin de prendre conscience des spécificités du droit de l’entreprise.<br>
+							Présentation du droit : organisation, sanction, régulation<br>
+							Notions générales de base : droit privé/droit public, sujets/objets, droit impératif/droit supplétif<br>
+							Sources de droit : droit interne, droit européen, droit international<br>
+							Droit de la preuve : modes de preuve, charge de la preuve, originalité du droit commercial par rapport au droit civil<br>
+							Justice en France : ordre judiciaire, ordre administratif, règles de compétences en matière de droit des affaires<br>
+							Droit des contrats et responsabilité contractuelle : contrats d’affaires Droit des sociétés : structure des entreprises<br>
+							Études de cas<br>
+
+							<p style="color: #5a7e9e;"><strong> Ects: 3</strong></p> 
+						</div>
+					</td>
+				</tr>
+
+				<!--------Système et algorithmique répartis---------------->
+				<tr  class="accordion-toggle" data-toggle="collapse"
+					data-target="#collapse8" id="mat">
+					<td>Système et algorithmique répartis</td>
+					<td>45 h</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td colspan="3">
+						<div id="collapse8" class="collapse in">
+							<p style="color:#5a7e9e;"><strong> Description du contenu de l'enseignement :</strong></p>
+							Ce cours vise à présenter les concepts élémentaires des systèmes et les algorithmes associés aux environnements répartis<br>
+							Introduction aux systèmes répartis<br>
+
+							Les applications réparties s'exécutent sur un ensemble de machines connectées en réseau. Elles représentent un ensemble de composants qui coopèrent pour réaliser un objectif commun en utilisant le réseau comme un moyen d'échanger des données. Ce cours vise à présenter les concepts élémentaires des systèmes et les algorithmes associés aux environnements répartis<br>
+							Introduction aux systèmes répartis
+							Principe et fonctionnement des appels de procédure à distance (RPC)<br>
+							Mise en œuvre de la communication à distance en utilisant la couche réseaux (RMI) en Java,
+							Introduction à l’algorithmique répartie
+							Présentation du modèle de répartition basé sur les échanges de messages<br>
+							Présentation des concepts liés à la communication: contrôle de flux, synchronisation de processus, relation de causalité, réseaux FIFO<br>
+							Présentation des concepts liés au temps et à la concurrence : horloges logiques, exclusion mutuelle.<br>
+							<p style="color: #5a7e9e;"><strong> Ects: 4</strong></p> 
+						</div>
+					</td>
+				</tr>
+
+				<!--------Anglais 1 et 2 ---------------->
+				<tr  class="accordion-toggle" data-toggle="collapse"
+					data-target="#collapse9" id="mat">
+					<td>Anglais 1 et 2 </td>
+					<td>36 h</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td colspan="3">
+						<div id="collapse9" class="collapse in">
+							<p style="color:#5a7e9e;"><strong> Description du contenu de l'enseignement :</strong></p>
+							Fournir aux étudiants les outils linguistiques nécessaires pour fonctionner efficacement dans l'entreprise et avec leurs partenaires européens.<br>
+							Expression orale / écrite : anglais des affaires, faire un compte rendu oral en public, rédiger, lettres, rapports, résumé de conférences, réunions.<br>
+							Préparation au TOEIC : Test of English for International Communication.<br>
+							Traduction Economique : Familiariser les étudiants avec la terminologie économique à partir de thèmes d'actualité.<br> Travail en laboratoire et/ou en salle audiovisuelle à partir de documents authentiques.<br>
+
+							<p style="color: #5a7e9e;"><strong> Ects: 3</strong></p> 
+						</div>
+					</td>
+				</tr>
+
+				<!--------Analyse Financière	---------------->
+				<tr  class="accordion-toggle" data-toggle="collapse"
+					data-target="#collapse10" id="mat">
+					<td>Analyse Financière	</td>
+					<td>30 h</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td colspan="3">
+						<div id="collapse10" class="collapse in">
+							<p style="color:#5a7e9e;"><strong> Description du contenu de l'enseignement :</strong></p>
+							Introduction de notions de comptabilités générales et de mathématiques financières nécessaires à l’analyse financière et présentation de l’analyse du compte de résultat et du bilan financier.
+							Calcul financier : actualisation et capitalisation, analyse des emprunts et élément pour la décision de financement. Analyse du compte résultat : les soldes intermédiaires de gestion<br>
+							(SIG), la valeur ajoutée, retraitement du crédit-bail, le financement interne et la CAF.<br>
+							Analyse de bilan financier - approche Liquidité/Exigibilité : l’affectation du résultat, retraitement du crédit-bail, Le bilan résumé, la relation statique d’équilibre financier (T = FR – BFR), la trésorerie potentielle.<br>
+							Méthode des ratios : les principes de l’analyse par la méthode des ratios, les principaux ratios (structure du bilan, équilibre financier, gestion, marges), les ratios spécifiques à l’analyse boursière.<br>
+							Analyse des flux financiers : la reconstitution des flux financiers, les emplois et les ressources, la construction d’un tableau de financement, la construction d’un tableau des flux de trésorerie, interprétation et analyse.<br>
+							Analyse des rentabilités : mesure comptable de la rentabilité économique, mesure comptable de la rentabilité financière, L’effet de levier financier.<br>
+							<p style="color: #5a7e9e;"><strong> Ects: 3</strong></p> 
+						</div>
+					</td>
+				</tr>
+
+				<!--------Programmation Web---------------->
+				<tr  class="accordion-toggle" data-toggle="collapse"
+					data-target="#collapse11" id="mat">
+					<td>Programmation Web</td>
+					<td>36 h</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td colspan="3">
+						<div id="collapse11" class="collapse in">
+							<p style="color:#5a7e9e;"><strong> Description du contenu de l'enseignement :</strong></p>
+							Introduction to the construction of Web applications.<br>
+							The main topic of this class is the construction of modern web applications. cover the following two topics:<br>
+							Client-side programming with javascript.<br>
+							Server-side programming with JSP and servlets.<br>
+
+							<p style="color: #5a7e9e;"><strong> Ects: 3</strong></p> 
+						</div>
+					</td>
+				</tr>
+
+				<!--------Organisation et communication---------------->
+				<tr  class="accordion-toggle" data-toggle="collapse"
+					data-target="#collapse12" id="mat">
+					<td>Organisation et communication</td>
+					<td>30 h</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td colspan="3">
+						<div id="collapse12" class="collapse in">
+							<p style="color:#5a7e9e;"><strong> Description du contenu de l'enseignement :</strong></p>
+							Ce cours se donne pour objectif de permettre aux étudiants de :<br>
+							1) Comprendre et analyser le processus de changement et plus particulèrement d'innovation dans l'organisation de l'entreprise ;<br>
+							2) Comprendre et maîtriser le mécanisme de la communication liés au processus de changement ;<br>
+							3) Conduire efficacement des réunions et des négociations dans un processus de changement<br>
+
+							Ce cours comporte :<br>
+							1) Une partie "sociologie" qui développe différents aspects du processus de changement dans l'organisation et du processus ;<br>
+							2) Une partie "communication" qui présente et analyse différents types d'interactions liés au processus de changement (conduite de réunion, négociation, gestion de conflit, etc...)<br>
+							<p style="color: #5a7e9e;"><strong> Ects: 3</strong></p> 
+						</div>
+					</td>
+				</tr>
+
+				<!--------Éthique en informatique et protection des données---------------->
+				<tr  class="accordion-toggle" data-toggle="collapse"
+					data-target="#collapse13" id="mat">
+					<td>Éthique en informatique et protection des données</td>
+					<td>9 h</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td colspan="3">
+						<div id="collapse13" class="collapse in">
+							<p style="color:#5a7e9e;"><strong> Description du contenu de l'enseignement :</strong></p>
+							Objectif de ce cours est de sensibiliser les étudiants au regard de techniques de manipulation et d’introduire à la problématique de la protection et traitement des données et à ses conséquences sur les individus.<br>
+
+							Validité des données et pièges statistiques<br>
+							Propriété des données<br>
+							Les systèmes de régulation de la protection des données<br>
+							Les textes applicables dans l'Union européenne et en France : les grands principes et définitions juridiques de la protection des données à caractère personnel<br>
+							Nudge theory<br>
+							Conséquences sur la société (privacy, surveillance, ’ossification’…)<br>
+							<p style="color: #5a7e9e;"><strong> Ects: 1</strong></p> 
+						</div>
+					</td>
+				</tr>
+
+				<!--------Jeu d'entreprise---------------->
+				<tr  class="accordion-toggle" data-toggle="collapse"
+					data-target="#collapse14" id="mat">
+					<td>Jeu d'entreprise</td>
+					<td>15 h</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td colspan="3">
+						<div id="collapse14" class="collapse in">
+							<p style="color:#5a7e9e;"><strong> Description du contenu de l'enseignement :</strong></p>
+							Application des concepts de l’analyse financière sur un logiciel de simulation.<br>
+
+							<p style="color: #5a7e9e;"><strong> Ects: 1</strong></p> 
+						</div>
+					</td>
+				</tr>
+
+				<!--------Options---------------->
+				<tr  class="accordion-toggle" data-toggle="collapse"
+					data-target="#collapse15" id="mat">
+					<td>Options</td>
+					<td>60 h</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td colspan="3">
+						<div id="collapse15" class="collapse in">
+							<p style="color:#5a7e9e;"><strong> UE Options :</strong></p>
+							Marchés Financiers<br>
+							Décision collective, décision multicritère<br>
+							Ordonnancement et Gestion de production<br>
+							Sécurité et réseaux<br>
+
+							<p style="color: #5a7e9e;"><strong> Ects: 3</strong></p> 
+						</div>
+					</td>
+				</tr>
+
+
+			</tbody>
+		</table>
+
+	</div>
+
+	<!-- Le javascript
+    ================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="http://getbootstrap.com/2.3.2/assets/js/jquery.js"></script>
+	<script src="http://getbootstrap.com/2.3.2/assets/js/bootstrap.js"></script>
+
+	<script src="http://getbootstrap.com/2.3.2/assets/js/holder/holder.js"></script>
+	<script
+		src="http://getbootstrap.com/2.3.2/assets/js/google-code-prettify/prettify.js"></script>
+
+	<script src="http://getbootstrap.com/2.3.2/assets/js/application.js"></script>
+
 
   <hr>
 
@@ -87,7 +470,7 @@
         <div class="col-lg-8 col-md-10 mx-auto">
           <ul class="list-inline text-center">
             <li class="list-inline-item">
-              <a href="#">
+              <a href="https://twitter.com/Paris_Dauphine">
                 <span class="fa-stack fa-lg">
                   <i class="fas fa-circle fa-stack-2x"></i>
                   <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
@@ -95,7 +478,7 @@
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="#">
+              <a href="https://www.facebook.com/Universite.Paris.Dauphine/?hc_ref=ARRQloRLm4_9ipKODk7ti0zcZhvARMtqaHLWEa9GyO_D6GZzR-vjjETwjDdh5UdeTZE&fref=nf&__tn__=kC-R">
                 <span class="fa-stack fa-lg">
                   <i class="fas fa-circle fa-stack-2x"></i>
                   <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
@@ -103,7 +486,7 @@
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="#">
+              <a href="https://github.com/kenzaal/site-masters">
                 <span class="fa-stack fa-lg">
                   <i class="fas fa-circle fa-stack-2x"></i>
                   <i class="fab fa-github fa-stack-1x fa-inverse"></i>
@@ -111,7 +494,7 @@
               </a>
             </li>
           </ul>
-          <p class="copyright text-muted">Copyright &copy; Your Website 2019</p>
+          <p class="copyright text-muted">Copyright &copy; MIAGE 2020</p>
         </div>
       </div>
     </div>
